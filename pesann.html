@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FORM PESANAN PRIMA RENTAL</title>
+    <meta charset="UTF-8" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pesan.css" />
+  </head>
+
+  <body>
+    <header>
+      <h2 class="text-center mt-5">PRIMA RENTAL</h2>
+    </header>
+    <div class="container mt-1">
+      <h3 class="text-center"></h3>
+      <div class="card">
+        <form name="orderForm" action="#" method="post" class="form-card">
+          <h3 class="text-center">Form pemesanan mobil prima rental</h3>
+          <br />
+          <br />
+
+          <h4>Informasi Pribadi</h4>
+          <br />
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName">Nama</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputNama"
+                name="customerNama"
+                placeholder="Nama Lengkap"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputName">No Telepon</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputNama"
+                name="customerNama"
+                placeholder="No Telepon"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputName">Alamat</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputNama"
+                name="customerNama"
+                placeholder="Alamat"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputEmail4"
+                name="customerEmail"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputName">Tempat, tanggal lahir</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputNama"
+                name="customerNama"
+                placeholder="Tempat, tanggal lahir"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputNumber">Umur</label>
+              <input
+                type="number"
+                class="form-control"
+                id="inputNama"
+                name="customerNama"
+                placeholder="Umur"
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-4 mt-2">
+              <label for="inputState">Negara</label>
+              <select id="inputState" class="form-control" name="customerState">
+                <option selected>pilih...</option>
+                <option>Australia</option>
+                <option>Amerika</option>
+                <option>Malaysia</option>
+                <option>Indonesia</option>
+                <option>Singapura</option>
+              </select>
+            </div>
+          </div>
+          <br />
+
+          <!-- Order Info -->
+          <h4>Informasi pesanan</h4>
+          <br />
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputProcessor">Jenis mobil</label>
+              <select id="inputState" class="form-control" name="customerState">
+                <option selected>pilih...</option>
+                <option>Daily Car</option>
+                <option>VVIP Car</option>
+                <option>Sports Car</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputProcessor">Tipe mobil</label>
+              <select id="inputState" class="form-control" name="customerState">
+                <option selected>pilih...</option>
+                <option>Toyota Avanza</option>
+                <option>Toyota Agya</option>
+                <option>Daihatsu Xenia</option>
+                <option>Toyota Calya</option>
+                <option>Mitsubishi Colt</option>
+                <option>Daihatsu Granmax</option>
+                <option>Suzuki Carry</option>
+                <option>Toyota Fortuner</option>
+                <option>Toyota Innova</option>
+                <option>Toyota Alphard</option>
+                <option>Mini Cooper</option>
+                <option>Ferrari</option>
+                <option>Lamborghini</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputName">Tanggal mulai sewa</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputNama"
+                name="customerNama"
+                placeholder="Tanggal mulai sewa"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputName">Tanggal selesai sewa</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputNama"
+                name="customerNama"
+                placeholder="Tanggal selesai sewa"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputName">Jam pengambilan</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputNama"
+                name="customerNama"
+                placeholder="Jam pengambilan"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputNumber">Jam pengembalian</label>
+              <input
+                type="number"
+                class="form-control"
+                id="inputNama"
+                name="customerNama"
+                placeholder="Jam pengembalian"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputState">Layanan Tambahan</label>
+              <select id="inputState" class="form-control" name="customerState">
+                <option selected>pilih...</option>
+                <option>Supir</option>
+                <option>Asuransi</option>
+                <option>Baby seat</option>
+                <option>Lainnya...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputState">Metode pembayaran</label>
+              <select id="inputState" class="form-control" name="customerState">
+                <option selected>pilih...</option>
+                <option>Cash</option>
+                <option>Transfer bank</option>
+                <option>Kartu credit/debit</option>
+                <option>E-Wallet, gopay, dana, dll</option>
+              </select>
+            </div>
+          </div>
+          <a href="index.html"><type="submit" class="btn btn-primary ">
+            Pesan
+          </a>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

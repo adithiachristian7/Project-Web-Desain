@@ -1,0 +1,93 @@
+body {
+  color: #ffffff;
+  background-image: url(/foto/bg_black.jpg);
+  overflow-x: hidden;
+  background-color: #000000;
+  height: 100%;
+  background-size: 100%;
+}
+.card {
+  padding: 30px 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border: none !important;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.blue-text {
+  color: #000000;
+}
+.form-control-label {
+  margin-bottom: 0;
+}
+input,
+textarea,
+button {
+  padding: 8px 15px;
+  border-radius: 5px !important;
+  margin: 5px 0px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 18px !important;
+  font-weight: 300;
+}
+input:focus,
+textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #000000;
+  outline-width: 0;
+  font-weight: 400;
+}
+.btn-block {
+  text-transform: uppercase;
+  font-size: 15px !important;
+  font-weight: 400;
+  height: 43px;
+  cursor: pointer;
+}
+.btn-block:hover {
+  color: #fff !important;
+}
+button:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0;
+}
+.container {
+  margin-top: 15px;
+  color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 10px 10px;
+  }
+  .left-box {
+    height: 100px;
+    overflow: hidden;
+  }
+  .right-box {
+    padding: 20px;
+  }
+
+  .custom-img {
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    position: center;
+  }
+
+  .rounded-5 {
+    border-radius: 30px;
+    margin-top: 8%;
+    margin-bottom: 3%;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    background: #fff;
+    text-decoration: none;
+  }
+}
